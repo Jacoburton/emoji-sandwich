@@ -1,0 +1,23 @@
+{
+  "name": "emoji-sandwich",
+  "version": "1.0.0",
+  "description": "Parse a string and wrap emojis in your chosen tag",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "bamblehorse/tiny",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run babel",
+    "babel": "babel --presets es2015 src/index.js -o index.js"
+  },
+  "author": "Jacob Burton <jacoburton104@googlemail.com>",
+  "dependencies": {
+    "runes": "^0.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "browserify": "^16.2.3"
+  }
+}
