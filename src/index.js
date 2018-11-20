@@ -7,7 +7,7 @@ const wrap = (value, open, close) => {
     open = open || `<emoji>`;
     close = close || `</emoji>`;
     const wrap = wrapper(open, close);
-    value = runes(value).map((char, index) => (this.emojiRegex.test(char) ? wrap(char) : char)).join(``);
+    value = runes(value).map((char, index) => (regex.test(char) ? wrap(char) : char)).join(``);
     return value;
 };
 

@@ -1,10 +1,10 @@
 {
   "name": "emoji-sandwich",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse a string and wrap emojis in your chosen tag",
   "main": "index.js",
   "license": "MIT",
-  "repository": "bamblehorse/tiny",
+  "repository": "Jacoburton/emoji-sandwich",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run babel",
