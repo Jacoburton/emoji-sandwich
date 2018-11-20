@@ -22,7 +22,7 @@ var wrap = function wrap(value, open, close) {
     close = close || '</emoji>';
     var wrap = wrapper(open, close);
     value = (0, _runes2.default)(value).map(function (char, index) {
-        return undefined.emojiRegex.test(char) ? wrap(char) : char;
+        return regex.test(char) ? wrap(char) : char;
     }).join('');
     return value;
 };
