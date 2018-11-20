@@ -1,7 +1,7 @@
 ## 🥪
 # emoji-sandwich
 
-*Parse a string for emojis and wrap them in your chosen tag.*
+**Parse a string for emojis and wrap them in your chosen tag.**
 
 Useful when handling user generated data and want to emphasize emojis and make them larger.
 
